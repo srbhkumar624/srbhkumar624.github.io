@@ -9,6 +9,7 @@ import { Project } from './PortfolioContainer/Projects/Project'
 import Toggle from './PortfolioContainer/toggle/Toggle';
 import { useContext } from 'react';
 import { ThemeContext } from './context';
+import Stats from './PortfolioContainer/Statistics/Stats';
 
 function App() {
   const theme = useContext(ThemeContext);
@@ -25,6 +26,7 @@ function App() {
         <AboutMe />
         <Resume />
         <Project />
+        <Stats />
         <Contact />
         {/* <Card body className="footer">© 2022 Saurabh Kumar
         </Card> */}

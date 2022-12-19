@@ -54,7 +54,7 @@ export default function Contact() {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>What's your story?</b> Get in touch
+                        <h4>Get In Touch</h4>
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Name" name="user_name" />
