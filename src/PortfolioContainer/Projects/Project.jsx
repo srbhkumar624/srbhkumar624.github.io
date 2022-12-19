@@ -70,7 +70,7 @@ export const Project = () => {
               <a
                 target="_blank"
                 rel="noopener noreferrer"
-                href="https://github.com/aman-109/dainty-market-1579-MuscleFit"
+                href="https://github.com/srbhkumar624/MuscleFit"
               >
                 <FaGithubSquare className="social-media-icon" />
               </a>
