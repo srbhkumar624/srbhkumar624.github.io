@@ -11,7 +11,7 @@ export default function Profile() {
             <div className="row " >
                 <div className="profile-container col-md-12" id="home">
                     <div className="row  "  >
-                        <div className="col-md-12" style={{margin:"0px" ,padding :"0px"}} >
+                        <div className="col-md-12" style={{margin:"0px" ,padding :"0px", position:"fixed"}} >
                             
                             <Navbar  expand="lg" className="myNav" >
                                 <Container fluid>
@@ -24,6 +24,8 @@ export default function Profile() {
                                         <Nav.Link href="#resume"><p className="menu-content">SKILLS</p></Nav.Link>
                                         <Nav.Link href="#project"><p className="menu-content">PROJECTS</p></Nav.Link>
                                         <Nav.Link href="#contact"><p className="menu-content">CONTACT</p></Nav.Link> 
+                                        <Nav.Link href="saurabh_kumar_resume.pdf" download="saurabh_kumar_resume.pdf"><p className="menu-content">RESUME</p></Nav.Link>
+
                                         </Nav>
                                     </Navbar.Collapse>
                                 </Container>
@@ -60,7 +62,9 @@ export default function Profile() {
                                             />
                                         </h1>
                                         <span className='profile-role-tagline'>
-                                        It's Nice To Meet You. I Love solving the problem, And I Love What I Do.
+                                        Aspiring Full Stack Web Developer specialized in MERN stack with the capability
+of developing front-end and back-end applications. Looking for a job opportunity
+in a technology-driven company.
                                         </span>
                                     </span>
                                 </div>

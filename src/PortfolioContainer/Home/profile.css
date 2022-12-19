@@ -2,9 +2,9 @@
     text-align: center;
     justify-content: center;
     min-height: fit-content;
-    /* background-color: #2C272E; */
     background-size: cover;
     background-repeat: no-repeat;
+    
 }
  .myNav{
    background-color: #2C272E;
@@ -12,23 +12,9 @@
    color: #ffffff;
    font-size: 14.5px;
    width: 100%;
+   
 }
-/*.heading{
-    color: #ffffff;
-    font-weight: 600;
 
-}
-.toggle-btn{
-    background-color: #ffffff;
-    color: #ffffff;
-}
-.menu-bar{
-    top: 0rem;
-    width: 300px;
-    text-align: center;
-    font-size: 20px;
-}
-*/
  .menu-content{
    color: #ffffff;
    padding: 7px 7px;
@@ -42,14 +28,7 @@
     padding: 7px 7px;
     background-color:#111146;
  }
- /* .menubar-img{
-    margin-left: 80px;
- }
- .menubar-img img{
-     width: 100px;
-     height: 100px;
-     border-radius: 50%;
- }  */
+ 
 .profile-parent{
     display: flex;
     align-items: center;
@@ -85,18 +64,7 @@
 .profile-option{
     justify-content: center;
 }
-/* .profile-option .btn-primary-btn{
-    background-color: darkslateblue;
-    padding: 7.5px 18px;
-    border: none;
-    color: #ffffff;
-    border-radius: 5px;
-} */
-/* .profile-option .btn-primary-btn:hover{
-    background-color: #ffffff;
-    padding: 7.5px 18px;
-    color: black;
-} */
+
  .getResumeBtn{
     padding: 10px 15px;
     margin: 0 0 0 28px;
@@ -116,8 +84,8 @@
     justify-content: center;
     box-shadow: 0 1px 0px 0px #52575D;
     border-radius: 50%;
-    height: 380px;
-    width: 380px;
+    height: 280px;
+    width: 480px;
     margin: 0 0 0 20%;
 }
 .profile-picture-background{
@@ -202,9 +170,7 @@
    
 }
 @media screen and (max-width:810px) {
-    /* .profile-picture{
-        margin: 0 !important;
-    } */
+    
     .profile-parent{
         flex-direction: column-reverse;
         }
