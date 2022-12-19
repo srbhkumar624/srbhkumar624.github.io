@@ -41,8 +41,8 @@ export default function Profile() {
                         <p className="menu-content">CONTACT</p>
                       </Nav.Link>
                       <Nav.Link
-                        href="saurabh_kumar_resume.pdf"
-                        download="saurabh_kumar_resume.pdf"
+                        href="Saurabh_Kumar_resume.pdf"
+                        download="Saurabh_Kumar_resume.pdf"
                       >
                         <p className="menu-content">RESUME</p>
                       </Nav.Link>
@@ -91,8 +91,8 @@ export default function Profile() {
                 </div>
                 <div className="profile-option">
                   <a
-                    href="saurabh_kumar_resume.pdf"
-                    download="saurabh_kumar_resume.pdf"
+                    href="Saurabh_Kumar_resume.pdf"
+                    download="Saurabh_Kumar_resume.pdf"
                   >
                     <button className="getResumeBtn">Get Resume</button>
                   </a>
