@@ -80,20 +80,7 @@ export default function Profile() {
                 </div>
                 <div className="profile-details-role">
                   <span className="primary">
-                    {" "}
-                    <h1>
-                      {" "}
-                      <Typical
-                        className="typicalText"
-                        loop={Infinity}
-                        steps={[
-                          "Full Stack Developer",
-                          2000,
-                          "Problem Solver",
-                          2000,
-                        ]}
-                      />
-                    </h1>
+                    <h1>Full Stack Web Developer</h1>
                     <span className="profile-role-tagline">
                       Aspiring Full Stack Web Developer specialized in MERN
                       stack with the capability of developing front-end and
